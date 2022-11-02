@@ -1,11 +1,18 @@
 # Security Policy
 
-## Golang Versions
+## Go Versions
 
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.17.x   | :white_check_mark: |
 | 1.18.x   | :white_check_mark:               |
-| < 1.17.x   | :x:                |
+
+
+## Golangci-lint Versions
+
+
+| Version | Supported          |
+|---------| ------------------ |
+| 1.47.3  | :white_check_mark:  |
+
 
