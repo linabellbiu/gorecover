@@ -90,7 +90,9 @@ func (m Manager) GetAllSupportedLinterConfigs() []*linter.Config {
 }
 ```
 
-3. 在你的项目中`.golangci.yml`中添加`gorecover` 静态检查项
+4. 重新编译golangci-lint
+
+5. 在你的项目中`.golangci.yml`中添加`gorecover` 静态检查项
 ```yaml
 linters:
   disable-all: true # 关闭全部检查
